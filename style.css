@@ -1,0 +1,31 @@
+*{
+    padding: 0; /*reset de borda interna, para podermos mudar manualmente e fazer com que tenha o mesmo tamanho em diferentes navegadores*/
+    margin: 0; /*reset de borda externa, para podermos mudar manualmente e fazer com que tenha o mesmo tamanho em diferentes navegadores*/
+    box-sizing: border-box; /*usado para quando colocarmos uma borda interna ela n acressentar, mas sim tirar da externa*/
+/* background-color: turquoise;
+height: 100px;
+width: 200px; */
+
+}
+body{
+    width: 1000px;
+    height: 1000px;
+    background-image:url(fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #00000080;
+    background-blend-mode: darken;
+
+}
+
+h1{
+    color: white;
+}
+
+.verde{
+    color: black;
+}
+#vermelho{
+    color: white;
+}
