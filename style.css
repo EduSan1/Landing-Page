@@ -8,24 +8,53 @@ width: 200px; */
 
 }
 body{
-    width: 1000px;
-    height: 1000px;
+    width: 100vw;
+    height: 100vh;
     background-image:url(fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-color: #00000080;
     background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
 
 }
-
 h1{
-    color: white;
+    font-size: 75px;
+    color: #FFF;
+    font-family: Montserrat, sans-serif;
+    
 }
 
-.verde{
-    color: black;
-}
-#vermelho{
+.des {
+
+    font-size: 45px;
     color: white;
+    font-style: italic;
+    font-family: Montserrat, sans-serif;
+
+}
+
+#more {
+
+    height: 40px;
+    width: 200px;
+    background-color: #fae12c;
+    color: #000;
+    border-style: none;
+    border-radius: 5px 5px 5px 5px; /*pode ser usado 1 valor que serve pros 4, 2 e valores que server pras pontas opostas e 4 pra cada ponta*/
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
 }
