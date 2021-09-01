@@ -39,7 +39,7 @@ h1{
 
 .des {
 
-    font-size: clamp(20px, 4vw, 45px);
+    font-size: clamp(25px, 4vw, 45px);
     color: white;
     font-style: italic;
     font-family: Montserrat, sans-serif;
